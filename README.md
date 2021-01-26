@@ -8,7 +8,7 @@ SwiftUI view modifiers to use gestures inside `ScrollView` and `List`.
 Sequences a gesture with a long press and attaches the result to the view, which results in the gesture only receiving events after the long press succeeds.
 
 ### Usage
-Use this view modifier *instead* of `.gesture()` to delay a gesture:
+Use this view modifier *instead of* `.gesture()` to delay a gesture:
 
 ```swift
 ScrollView {
@@ -38,7 +38,7 @@ ScrollView {
 ```
 
 ### Parameters
-* `delay`: A value that controls the duration of the long press that must elapse before the gesture can be recognized by the view.
+* `delay`: A value that controls the duration of the long press that must elapse before lower precedence gestures can be recognized by the view.
 * `action`: An action to perform if a tap gesture is recognized before the long press can be recognized by the view.
 
 ## Requirements
