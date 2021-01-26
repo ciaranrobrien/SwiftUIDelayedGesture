@@ -4,8 +4,6 @@ SwiftUI view modifiers to use gestures inside ScrollView and List.
 
 ![Demo](./Resources/Demo.gif "Demo")
 
-![Demo](./Resources/Demo.MP4 "Demo")
-
 ## .delayedGesture()
 
 > Sequences a gesture with a long press and attaches the result to the view, which results in the gesture only receiving events after the long press succeeds.
