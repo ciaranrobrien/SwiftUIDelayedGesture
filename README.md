@@ -50,3 +50,7 @@ ScrollView {
 
 * Install with [Swift Package Manager](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
 * Import `SwiftUIDelayedGesture` to start using.
+
+## Contact
+
+[@ciaranrobrien](https://twitter.com/ciaranrobrien) on Twitter.
