@@ -43,8 +43,8 @@ ScrollView {
 
 ## Requirements
 
-* iOS 14.0+ or watchOS 7.0+
-* Xcode 12.0+
+* iOS 14.0+, watchOS 7.0+
+* Xcode 15.0+
 
 ## Installation
 
