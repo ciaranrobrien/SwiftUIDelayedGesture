@@ -38,6 +38,7 @@ private struct DelayButtonStyle: ButtonStyle {
 }
 
 
+@MainActor
 private final class DelayState: ObservableObject {
     @Published private(set) var disabled = false
     
@@ -49,14 +50,7 @@ private final class DelayState: ObservableObject {
                 guard let self else { return }
                 
                 self.objectWillChange.send()
-                self.disabled = false
-                
-                DispatchQueue.main.async { [weak self] in
-                    guard let self else { return }
-                    
-                    self.objectWillChange.send()
-                    self.disabled = true
-                }
+                self.disabled = true
             }
             
             DispatchQueue.main.asyncAfter(deadline: .now() + max(delay, 0), execute: workItem)
