@@ -44,13 +44,9 @@ ScrollView {
 ## Requirements
 
 * iOS 14.0+, watchOS 7.0+
-* Xcode 15.0+
+* Xcode 26.0+
 
 ## Installation
 
 * Install with [Swift Package Manager](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
 * Import `SwiftUIDelayedGesture` to start using.
-
-## Contact
-
-[@ciaranrobrien](https://twitter.com/ciaranrobrien) on Twitter.
